@@ -7,7 +7,7 @@ The architecture follows a simple, modular design. This approach makes the syste
 The file parsing and chunking are accomplished with the unstructured Python library. I chose this library because it handled two pipeline steps in a single call and supported several file formats, including PDF, TXT, and HTML. The vector database is ChromaDB; when a document is added, it generates embeddings using the all-MiniLM-L6-v2 model via ONNX/Sentence-Transformers. You can upgrade to an OpenAI embedding model to improve quality. However, I didn't do this because it wasn't local or free. The semantic search runs within the vector database using Euclidean distance. I selected ChromaDB because it is a simple, embedded setup that uses local resources. The LLM is a local Ollama instance; it costs nothing and can be swapped for the OpenAI LLM API. The LLM model is Llama 3.1 8 B. 
 
 # Code Usage
-You can run the included notebook in Google Colab using the Run All command. You may need to run the pip install once before running the entire notebook. Google Drive is used for the file location. However, the code details are below, so you can use it in other environments.\  
+You can run the included ![notebook](TechDoc_QA.ipynb) in Google Colab using the Run All command. You may need to run the pip install once before running the entire notebook. Google Drive is used for the file location. However, the code details are below, so you can use it in other environments.\  
 - File Parsing and Data Chunking
 The following function handles file parsing and data chunking. It takes a file and outputs a chunked document.
 ```python
