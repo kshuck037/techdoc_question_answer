@@ -8,7 +8,7 @@ Developed and ran the notebook in Google Colab.
 
 # Design Decisions
 
-
+# Acknowledgment of AI Usage
 
 # Reference Data
 - Crisp, Nicholas & Smith, Katharine & Hollingsworth, Peter. (2014). Small Satellite Launch to LEO: A Review of Current and Future Launch Systems. TRANSACTIONS OF THE JAPAN SOCIETY FOR AERONAUTICAL AND SPACE SCIENCES, AEROSPACE TECHNOLOGY JAPAN. 12. Tf_39-Tf_47. 10.2322/tastj.12.Tf_39. 
